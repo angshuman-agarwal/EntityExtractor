@@ -64,16 +64,16 @@ Currently I have added suppport for `English` language, if you want to add other
 
    ` language = Culture.English `
    
--Chinese: Culture.Chinese
--Dutch: Culture.Dutch
--English: Culture.English
--French: Culture.French
--Italian: Culture.Italian
--Japanese: Culture.Japanese
--Korean: Culture.Korean
--Portuguese: Culture.Portuguese
--Spanish: Culture.Spanish
--Turkish: Culture.Turkish
+- Chinese: Culture.Chinese
+- Dutch: Culture.Dutch
+- English: Culture.English
+- French: Culture.French
+- Italian: Culture.Italian
+- Japanese: Culture.Japanese
+- Korean: Culture.Korean
+- Portuguese: Culture.Portuguese
+- Spanish: Culture.Spanish
+- Turkish: Culture.Turkish
    
 
 
