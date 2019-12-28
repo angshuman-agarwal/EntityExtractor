@@ -32,7 +32,7 @@ policies:
   - name: MappingPolicy
 
 ````
-- **Step 4**  Now you can train your model & test for the Entity Extractor
+- **Step 4** : Now you can train your model & test for the Entity Extractor
 
 ## Samples
 
