@@ -1,5 +1,9 @@
 # EntityExtractor
-Entity Extractor for Rasa using Microsoft [Recognizers Text](https://github.com/microsoft/Recognizers-Text/tree/master/Python)
+Entity Extractor for Rasa using Microsoft [Recognizers Text](https://github.com/microsoft/Recognizers-Text/tree/master/Python).
+
+I have built the Entity Extactor as an alternative for [Duckling Entity Extractor](https://rasa.com/docs/rasa/nlu/components/#ducklinghttpextractor), since there some problems using Duckling as it requires one server running for entity extraction as well as it's not available directly on Windows system.
+
+Currently I have added suppport for `English` language, if you are looking for other lanuages you can add the support for the same. 
 
 ## How to setup?
 
