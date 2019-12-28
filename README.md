@@ -43,6 +43,8 @@ policies:
 ````
 - **Step 4** : Now you can train your model & test for the Entity Extractor
 
+*Check this sample Bot for reference: [MoodBot](https://github.com/JiteshGaikwad/MoodBot)*
+
 ## Samples
 
 | Type             | Text                                      | Output                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
