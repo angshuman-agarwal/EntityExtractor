@@ -10,7 +10,11 @@ Currently I have added suppport for `English` language, if you are looking for o
 *Note: Make sure you have already installed and setup the Rasa on your system*
 
 - **Step 1** : Install the [Recognizer's suite](https://pypi.org/project/recognizers-text-suite/) with the following command: ```` pip install recognizers-text-suite ````
+
 - **Step 2** : Copy the `MSRTEntityExtractor.py` file in your project directory:
+
+    ![ScreenShot](https://github.com/JiteshGaikwad/EntityExtractor/blob/master/project_dir.png)
+
 - **Step 3** : Add the  reference of our Entity Extractor inside the Rasa NLU pipeline configuration file, as shown below:
 
 ````
