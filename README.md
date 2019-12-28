@@ -1,5 +1,5 @@
 # Entity Extractor
-Entity Extractor for Rasa using Microsoft [Recognizers Text](https://github.com/microsoft/Recognizers-Text/tree/master/Python) for extractig common entities like dates, time, currency, age, email id and others.
+Entity Extractor built for Rasa using Microsoft [Recognizers Text](https://github.com/microsoft/Recognizers-Text/tree/master/Python) for extractig common entities like dates, time, currency, age, email id and others.
 
 I have built the Entity Extactor as an alternative for [Duckling Entity Extractor](https://rasa.com/docs/rasa/nlu/components/#ducklinghttpextractor), since there some problems using Duckling as it requires one server running for entity extraction as well as it's not available directly on Windows system.
 
