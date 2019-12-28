@@ -57,23 +57,23 @@ policies:
 | **Temperature**  | Set the temperature to 30 degrees celsius | ```` "entities" : [         {             "start" : 23 ,             "end" : 24 ,             "text" : "30" ,             "entity" : "number" ,             "value" : "30" ,             "extractor" : "MSRTExtractor"          },         {             "start" : 23 ,             "end" : 40 ,             "text" : "30 degrees celsius" ,             "entity" : "temperature" ,             "value" : "30" ,             "extractor" : "MSRTExtractor"          }     ]   ````                                                                                                                                                                                                                                                                                                                                                                                          |
 | **Quarters**     | 1st Quarter of 2020                       | ```` "entities" : [         {             "start" : 15 ,             "end" : 18 ,             "text" : "2020" ,             "entity" : "number" ,             "value" : "2020" ,             "extractor" : "MSRTExtractor"          },         {             "start" : 0 ,             "end" : 2 ,             "text" : "1st" ,             "entity" : "ordinal" ,             "value" : "1" ,             "extractor" : "MSRTExtractor"          },         {             "start" : 0 ,             "end" : 18 ,             "text" : "1st quarter of 2020" ,             "entity" : "daterange" ,             "value" : {                 "start_date" : "2020-01-01" ,                 "end_date" : "2020-04-01"              },             "extractor" : "MSRTExtractor"          }     ]   ````                                                                       |
 
-## Future Works
+## Language Support
 
 
 Currently I have added suppport for `English` language, if you want to add other language, just edit the [line](https://github.com/JiteshGaikwad/EntityExtractor/blob/b902bbc66a2510aa4ec9fce3eb80c8541fc8cd24/MSRTEntityExtractor.py#L194) here:
 
    ` language = Culture.English `
    
-- Chinese: Culture.Chinese
-- Dutch: Culture.Dutch
-- English: Culture.English
-- French: Culture.French
-- Italian: Culture.Italian
-- Japanese: Culture.Japanese
-- Korean: Culture.Korean
-- Portuguese: Culture.Portuguese
-- Spanish: Culture.Spanish
-- Turkish: Culture.Turkish
+- **Chinese**: Culture.Chinese
+- **Dutch**: Culture.Dutch
+- **English**: Culture.English
+- **French**: Culture.French
+- **Italian**: Culture.Italian
+- **Japanese:** Culture.Japanese
+- **Korean**: Culture.Korean
+- **Portuguese**: Culture.Portuguese
+- **Spanish**: Culture.Spanish
+- **Turkish**: Culture.Turkish
    
 
 
