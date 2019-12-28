@@ -3,6 +3,8 @@ Entity Extractor for Rasa using Microsoft [Recognizers Text](https://github.com/
 
 I have built the Entity Extactor as an alternative for [Duckling Entity Extractor](https://rasa.com/docs/rasa/nlu/components/#ducklinghttpextractor), since there some problems using Duckling as it requires one server running for entity extraction as well as it's not available directly on Windows system.
 
+*Please note that this entity extractor doesn't call's any cloud api, it works offline.*
+
 
 ## How to setup?
 
@@ -76,5 +78,9 @@ Currently I have added suppport for `English` language, if you want to add other
 - **Turkish**: Culture.Turkish
    
    For more info., check the [reference](https://github.com/microsoft/Recognizers-Text#supported-entities-across-cultures)
+   
+   ## References:
+   
+   - [Microsoft Recognizers Text](https://github.com/microsoft/Recognizers-Text#microsoft-recognizers-text-overview)
 
 
