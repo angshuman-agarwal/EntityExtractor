@@ -3,7 +3,6 @@ Entity Extractor for Rasa using Microsoft [Recognizers Text](https://github.com/
 
 I have built the Entity Extactor as an alternative for [Duckling Entity Extractor](https://rasa.com/docs/rasa/nlu/components/#ducklinghttpextractor), since there some problems using Duckling as it requires one server running for entity extraction as well as it's not available directly on Windows system.
 
-Currently I have added suppport for `English` language, if you are looking for other lanuages you can add the support for the same. 
 
 ## How to setup?
 
@@ -57,3 +56,24 @@ policies:
 | **Percentage**   | one hundred percents                      | ````  "entities" : [         {             "start" : 0 ,             "end" : 10 ,             "text" : "one hundred" ,             "entity" : "number" ,             "value" : "100" ,             "extractor" : "MSRTExtractor"          },         {             "start" : 0 ,             "end" : 19 ,             "text" : "one hundred percents" ,             "entity" : "percentage" ,             "value" : "100%" ,             "extractor" : "MSRTExtractor"          }     ]    ````                                                                                                                                                                                                                                                                                                                                                                             |
 | **Temperature**  | Set the temperature to 30 degrees celsius | ```` "entities" : [         {             "start" : 23 ,             "end" : 24 ,             "text" : "30" ,             "entity" : "number" ,             "value" : "30" ,             "extractor" : "MSRTExtractor"          },         {             "start" : 23 ,             "end" : 40 ,             "text" : "30 degrees celsius" ,             "entity" : "temperature" ,             "value" : "30" ,             "extractor" : "MSRTExtractor"          }     ]   ````                                                                                                                                                                                                                                                                                                                                                                                          |
 | **Quarters**     | 1st Quarter of 2020                       | ```` "entities" : [         {             "start" : 15 ,             "end" : 18 ,             "text" : "2020" ,             "entity" : "number" ,             "value" : "2020" ,             "extractor" : "MSRTExtractor"          },         {             "start" : 0 ,             "end" : 2 ,             "text" : "1st" ,             "entity" : "ordinal" ,             "value" : "1" ,             "extractor" : "MSRTExtractor"          },         {             "start" : 0 ,             "end" : 18 ,             "text" : "1st quarter of 2020" ,             "entity" : "daterange" ,             "value" : {                 "start_date" : "2020-01-01" ,                 "end_date" : "2020-04-01"              },             "extractor" : "MSRTExtractor"          }     ]   ````                                                                       |
+
+## Future Works
+
+
+Currently I have added suppport for `English` language, if you want to add other language, just edit the [line](https://github.com/JiteshGaikwad/EntityExtractor/blob/b902bbc66a2510aa4ec9fce3eb80c8541fc8cd24/MSRTEntityExtractor.py#L194) here:
+
+   ` language = Culture.English `
+   
+-Chinese: Culture.Chinese
+-Dutch: Culture.Dutch
+-English: Culture.English
+-French: Culture.French
+-Italian: Culture.Italian
+-Japanese: Culture.Japanese
+-Korean: Culture.Korean
+-Portuguese: Culture.Portuguese
+-Spanish: Culture.Spanish
+-Turkish: Culture.Turkish
+   
+
+
