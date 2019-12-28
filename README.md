@@ -75,5 +75,6 @@ Currently I have added suppport for `English` language, if you want to add other
 - **Spanish**: Culture.Spanish
 - **Turkish**: Culture.Turkish
    
+   For more info., check the [reference](https://github.com/microsoft/Recognizers-Text#supported-entities-across-cultures)
 
 
